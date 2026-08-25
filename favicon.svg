@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#9a4f2a"/><stop offset="55%" stop-color="#6e3418"/><stop offset="100%" stop-color="#3c1c0d"/></linearGradient><linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4e2a6"/><stop offset="48%" stop-color="#c9a961"/><stop offset="100%" stop-color="#9c7d3f"/></linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f9fb"/><stop offset="100%" stop-color="#c4ccd3"/></linearGradient><linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f3d9a6"/><stop offset="100%" stop-color="#d9ad63"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <rect x="36" y="36" width="440" height="440" rx="60" fill="none" stroke="url(#brass)" stroke-width="13"/>
+  
+  <!-- copeau de bois qui sort a l'avant (droite) -->
+  <path d="M330 300 C 372 300 392 276 388 246 C 386 224 366 214 350 224 C 372 236 366 268 330 268 Z"
+        fill="url(#wood)" stroke="#8a6a2e" stroke-width="4" stroke-linejoin="round"/>
+  <!-- semelle -->
+  <rect x="112" y="300" width="286" height="40" rx="14" fill="url(#steel)" stroke="#5b6169" stroke-width="4"/>
+  <!-- corps du rabot -->
+  <path d="M150 300 V244 q0 -22 24 -22 h150 q16 0 22 16 l16 46 Z"
+        fill="url(#steel)" stroke="#5b6169" stroke-width="4" stroke-linejoin="round"/>
+  <!-- fer (lame) incline qui traverse -->
+  <path d="M250 232 L300 306 L272 306 L226 232 Z" fill="#3c2410"/>
+  <!-- poignee arriere (tote) -->
+  <path d="M150 300 V236 q-6 -46 -44 -46 q26 8 26 44 V300 Z" fill="url(#brass)" stroke="#5b4a24" stroke-width="4" stroke-linejoin="round"/>
+  <!-- bouton avant -->
+  <circle cx="352" cy="236" r="18" fill="url(#brass)" stroke="#5b4a24" stroke-width="4"/>
+</svg>
